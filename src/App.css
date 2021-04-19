@@ -1,0 +1,24 @@
+.wrapper{
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas: 
+    "h h"
+    "s c"
+}
+
+.header{
+  grid-area: h;
+}
+
+.sidebar{
+  grid-area: s;
+}
+
+.content{
+  grid-area: c;
+}
+
+.nav__link{
+  display: block;
+}
