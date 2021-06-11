@@ -1,0 +1,17 @@
+.content{
+    display: block;
+    padding: 10px;
+}
+.friends{
+    padding: 20px;
+}
+.title{
+    text-align: center;
+    margin: 20px 0;
+}
+.title h1{
+    font-size: 2rem;
+}
+.title p{
+    font-weight: 300;
+}

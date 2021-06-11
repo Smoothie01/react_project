@@ -1,24 +1,30 @@
 .wrapper{
+  margin: 0 auto;
   display: grid;
-  grid-template-rows: 60px 1fr;
+  grid-template-rows: 50px 2fr;
   grid-template-columns: 2fr 10fr;
-  grid-template-areas: 
+  grid-template-areas:
     "h h"
     "s c"
 }
 
 .header{
+  background-color: #00ffff;
   grid-area: h;
 }
 
 .sidebar{
+  background-color: blueviolet;
   grid-area: s;
-}
-
-.content{
-  grid-area: c;
 }
 
 .nav__link{
   display: block;
+}
+
+.wrapper__content{
+  background-color: aliceblue;
+  grid-area: c;
+  height: 100vh;
+  overflow: auto;
 }

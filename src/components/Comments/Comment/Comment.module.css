@@ -1,0 +1,12 @@
+.avatar img{
+    border-radius: 50%;
+}
+
+.comment{
+    background-color:darkgray;
+    margin: 20px;
+    padding: 10px;
+    max-width: 150px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}

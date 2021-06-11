@@ -1,0 +1,61 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.dialog{
+    border-right: 1px solid orange;
+}
+.item{
+    padding: 10px;
+}
+.avatar{
+    margin: 15px 15px;
+}
+.avatar img{
+    width: 45px;
+    border-radius: 50%;
+}
+
+.messages{
+    max-height: 100vh;
+    overflow: auto;
+    position: relative;
+}
+.message{
+    padding: 15px;
+    margin-bottom: 100px;
+}
+.text{
+    max-width: 150px;
+    background-color: beige;
+    border-radius: 1.5em;
+    padding: 1.5em;
+}
+
+.me{
+    display: flex;
+    justify-content: flex-start;
+}
+.companion{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inputMessage{
+    position: fixed;
+    bottom: 0;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 80% 10%;
+    padding: 5px;
+    background-color: slategrey;
+}
+.inputMessage textarea{
+    display: block;
+    width: 100%;
+}
+.inputMessage button{
+    display: block;
+    width: 400px;
+}
+
